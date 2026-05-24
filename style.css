@@ -27,6 +27,7 @@ body{
   font-family:'Inter Tight','Inter',-apple-system,BlinkMacSystemFont,sans-serif;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
+  width:100%;
   overflow-x:hidden;
   font-feature-settings:"ss01","cv11";
 }
@@ -35,6 +36,13 @@ a{color:inherit;text-decoration:none;}
 button{font-family:inherit;}
 .container{max-width:1240px;margin:0 auto;padding:0 20px;}
 .font-mono{font-family:'JetBrains Mono',ui-monospace,monospace;}
+ 
+/* Приховуємо нативні стрілки в input number, які ламають верстку на телефонах */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance:none; margin:0;
+}
+input[type="number"] { -moz-appearance:textfield; }
  
 /* ============ Nav ============ */
 .nav-bar{
@@ -66,6 +74,7 @@ button{font-family:inherit;}
   transition:color .25s,background .25s;font-weight:500;
 }
 .nav a:hover{color:var(--text);background:rgba(255,255,255,0.05);}
+.nav-links { display:flex; align-items:center; gap:4px; }
 .nav .nav-cta{
   margin-left:4px;padding:9px 16px;
   background:var(--accent);color:var(--bg);
@@ -84,10 +93,35 @@ button{font-family:inherit;}
   transition:background .25s,color .25s;font-weight:600;
 }
 .nav .lang button.on{background:var(--text);color:var(--bg);}
+
+.burger-btn {
+  display:none; background:transparent; border:none; cursor:pointer;
+  flex-direction:column; gap:5px; padding:6px; margin-left:6px;
+}
+.burger-line {
+  width:20px; height:2px; background:var(--text);
+  transition:transform 0.3s, opacity 0.3s; border-radius:2px;
+}
+
 @media(max-width:760px){
-  .nav .desktop-only{display:none;}
-  .nav{font-size:12px;padding:5px 5px 5px 12px;}
+  .nav{font-size:13px; padding:6px 6px 6px 14px; width:100%; justify-content:space-between;}
   .nav .nav-cta{padding:8px 12px;}
+  .nav-links {
+    position:absolute; top:100%; left:0; right:0; margin-top:10px;
+    background:rgba(20,20,22,0.95); backdrop-filter:blur(16px);
+    border:1px solid var(--line-2); border-radius:16px;
+    flex-direction:column; padding:12px;
+    opacity:0; pointer-events:none; transform:translateY(-10px);
+    transition:opacity 0.3s, transform 0.3s;
+  }
+  .nav-links.active {
+    opacity:1; pointer-events:auto; transform:translateY(0);
+  }
+  .nav-links a { width:100%; text-align:center; padding:14px; font-size:16px; }
+  .burger-btn { display:flex; }
+  .burger-btn.active .burger-line:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+  .burger-btn.active .burger-line:nth-child(2) { opacity:0; }
+  .burger-btn.active .burger-line:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
 }
 @keyframes pulseDot{
   0%,100%{opacity:1;transform:scale(1);}
@@ -515,5 +549,6 @@ section{position:relative;padding:90px 0;}
 
 /* Управление скоростью появления надписи VIKTORIA */
 .footer-brand.reveal {
-  transition-duration: 2.5s;
+  /* Явно вказуємо довгу анімацію, щоб перекрити стандартні 0.8s */
+  transition: opacity 2.5s cubic-bezier(.2,.8,.2,1), transform 2.5s cubic-bezier(.2,.8,.2,1);
 }
