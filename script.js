@@ -426,6 +426,19 @@ function render(){
   document.querySelectorAll('.counter').forEach(el=>counterObserver.observe(el));
 }
  
+/* ============ Mobile Menu ============ */
+function toggleMenu() {
+  document.getElementById('nav-links').classList.toggle('active');
+  document.getElementById('burger-btn').classList.toggle('active');
+}
+
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('nav-links').classList.remove('active');
+    document.getElementById('burger-btn').classList.remove('active');
+  });
+});
+
 /* ============ FAQ Toggle ============ */
 let openFaq = -1;
 function toggleFaq(i){
