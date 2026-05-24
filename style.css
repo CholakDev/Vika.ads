@@ -1,4 +1,4 @@
-/* ============ Cholak Viktoriia · Premium Dark Landing ============ */
+
 :root{
   --bg:#0a0a0a;
   --bg-2:#111112;
@@ -326,16 +326,16 @@ section{position:relative;padding:90px 0;}
 }
 .roi-result-title.up{color:var(--accent);}
 .roi-row{
-  display:flex;justify-content:space-between;align-items:baseline;
-  padding:10px 0;border-bottom:1px dashed var(--line);font-size:14.5px;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:10px 0;border-bottom:1px dashed var(--line);
+  font-size:clamp(12px, 3.5vw, 14.5px);gap:4px;
 }
 .roi-row:last-child{border-bottom:0;}
 .roi-row .v{
   font-family:'Inter Tight',sans-serif;font-weight:500;
-  font-size:18px;letter-spacing:-0.02em;
-  word-break:break-word;
+  font-size:clamp(13px, 4vw, 18px);letter-spacing:-0.02em;
+  white-space:nowrap;
   text-align:right;
-  max-width:65%;
 }
 .roi-row .v.accent{color:var(--accent);}
 .roi-results-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
@@ -343,6 +343,7 @@ section{position:relative;padding:90px 0;}
   margin-top:24px;padding:20px;
   background:rgba(200,255,0,.07);border:1px solid rgba(200,255,0,.3);
   border-radius:14px;text-align:center;
+  overflow:hidden;
 }
 .roi-diff-label{
   font-family:'JetBrains Mono',monospace;font-size:11px;
@@ -350,9 +351,11 @@ section{position:relative;padding:90px 0;}
 }
 .roi-diff-value{
   font-family:'Inter Tight',sans-serif;font-weight:500;
-  font-size:clamp(34px,6vw,48px);letter-spacing:-0.035em;
+  font-size:clamp(24px, 6vw, 48px);letter-spacing:-0.035em;
   color:var(--accent);margin-top:6px;
-  word-break:break-word;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
  
 /* ============ Cases ============ */
