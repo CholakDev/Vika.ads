@@ -4,7 +4,7 @@ const T = {
     nav:{problems:"Проблеми",services:"Послуги",cases:"Кейси",about:"Про мене",cta:"Залишити заявку"},
     hero:{
       eyebrow:"Performance Marketer · FB & IG Ads",
-      h1:"Реклама, що реально приносить клієнтів — а не лише крутиться у стрічці.",
+      h1:"Реклама, що реально приносить клієнтів, а не лише крутиться у стрічці.",
       sub:"Запускаю та масштабую таргет для бізнесів, експертів і брендів. Прозоро, з фокусом на окупність кожної гривні.",
       ctaPrimary:"Обговорити проєкт",ctaSecondary:"Дивитись кейси",
       tag1:"1.5+ років",tag2:"30+ проєктів"
@@ -32,9 +32,7 @@ const T = {
       kicker:"02 — Що я роблю",title:"Послуги",
       items:[
         {tag:"Запуск",title:"Запуск з нуля",text:"Аналіз ніші, стратегія, креативи, налаштування Pixel + CAPI, перші кампанії під ключ.",time:"7 днів"},
-        {tag:"Scale",title:"Масштабування",text:"Виводжу робочі кампанії на новий рівень без падіння ROAS і без вигорання аудиторії.",time:"21 день"},
-        {tag:"Audit",title:"Аудит реклами",text:"Чесний розбір ваших кабінетів. Де зливається бюджет та що дасть приріст за 14 днів.",time:"3 дні"},
-        {tag:"Creo",title:"Креативи + копірайтинг",text:"Сценарії reels, статичні банери, тексти, що зупиняють скрол і ведуть до заявки.",time:"5 днів"}
+        {tag:"Audit",title:"Аудит реклами",text:"Чесний розбір ваших кабінетів. Де зливається бюджет та що дасть приріст за 14 днів.",time:"3 дні"}
       ]
     },
     roi:{
@@ -51,8 +49,7 @@ const T = {
       kicker:"04 — Робота",title:"Кейси",sub:"Цифри з останніх проєктів. Імена прихованi за NDA.",
       items:[
         {niche:"Beauty‑бренд",before:"CPL 240₴",after:"CPL 78₴",roas:"ROAS ×5.4",note:"За 30 днів — у 3.1 раза більше заявок при тому ж бюджеті."},
-        {niche:"Онлайн‑школа",before:"0 заявок",after:"184 / міс",roas:"ROAS ×4.7",note:"Запуск з нуля. Окупність воронки — на 11‑й день."},
-        {niche:"E‑commerce одяг",before:"ROAS ×1.8",after:"ROAS ×6.2",roas:"−42% CPL",note:"Перебудова структури кампаній + нові reels‑креативи."}
+        {niche:"Онлайн‑школа",before:"0 заявок",after:"184 / міс",roas:"ROAS ×4.7",note:"Запуск з нуля. Окупність воронки — на 11‑й день."}
       ]
     },
     process:{
@@ -81,7 +78,7 @@ const T = {
         {q:"Скільки коштують послуги?",a:"Базовий запуск — від 18 000₴/міс + рекламний бюджет. Точну вартість назву після брифу."},
         {q:"Який мінімальний бюджет на рекламу?",a:"Тестовий місяць — від 12 000₴. Менші бюджети дають замало даних для оптимізації."},
         {q:"Через скільки буде результат?",a:"Перші заявки — у перші 48–72 год після запуску. Стабільний потік — з 2‑го тижня."},
-        {q:"Я не в Україні. Працюємо?",a:"Так. Ринки EU / US / UK — мій профіль. Веду англійською."},
+        {q:"Я не в Україні. Працюємо?",a:"Так. Працюю дистанційно з проєктами з різних країн."},
         {q:"Що якщо не зайде?",a:"Якщо за перший місяць не виходимо на узгоджений KPI — повертаю 50% оплати за роботу."}
       ]
     },
@@ -99,104 +96,101 @@ const T = {
     },
     footer:{tagline:"Performance marketer · Odesa / remote",copy:"© 2026. Всі права захищені.",tg:"Telegram",ig:"Instagram",mail:"Email"}
   },
-  en:{
-    nav:{problems:"Problems",services:"Services",cases:"Cases",about:"About",cta:"Get in touch"},
+  ru:{
+    nav:{problems:"Проблемы",services:"Услуги",cases:"Кейсы",about:"Обо мне",cta:"Оставить заявку"},
     hero:{
       eyebrow:"Performance Marketer · FB & IG Ads",
-      h1:"Ads that actually bring clients — not just impressions.",
-      sub:"I launch and scale paid social for businesses, experts and brands. Transparent, focused on the return of every hryvnia spent.",
-      ctaPrimary:"Start a project",ctaSecondary:"See cases",
-      tag1:"1.5+ years",tag2:"30+ projects"
+      h1:"Реклама, которая реально приносит клиентов, а не просто крутится в ленте.",
+      sub:"Запускаю и масштабирую таргет для бизнесов, экспертов и брендов. Прозрачно, с фокусом на окупаемость каждой гривны.",
+      ctaPrimary:"Обсудить проект",ctaSecondary:"Смотреть кейсы",
+      tag1:"1.5+ года",tag2:"30+ проектов"
     },
     live:{
-      kicker:"LIVE",title:"Ad campaigns running right now",
-      sub:"While you're reading this — my campaigns are bringing leads in 8 niches at the same time.",
+      kicker:"LIVE",title:"Рекламные кампании крутятся прямо сейчас",
+      sub:"Пока вы читаете — мои кампании приносят заявки клиентам в 8 нишах одновременно.",
       stats:[
-        {n:248,label:"leads this month"},
-        {n:3,label:"active projects"},
-        {n:34,label:"creatives in tests"},
-        {n:3.4,label:"average ROAS",decimals:1}
+        {n:248,label:"лидов в этом месяце"},
+        {n:3,label:"активных проекта"},
+        {n:34,label:"креатива в тестах"},
+        {n:3.4,label:"средний ROAS",decimals:1}
       ],pulse:"ONLINE"
     },
     problems:{
-      kicker:"01 — Sound familiar?",title:"Pains I hear every single day",
+      kicker:"01 — Знакомо?",title:"Типичные боли, которые я слышу каждый день",
       items:[
-        {t:"«Burning budget — getting no leads»",d:"Ads run, no clients. Money just disappears."},
-        {t:"«My marketer ghosted — campaigns crashed»",d:"First a week of silence, then «I need more time». CPL doubled."},
-        {t:"«No idea where the money goes»",d:"No reports. What's being tested — unknown. What works — also a mystery."},
-        {t:"«We had ads — sales died anyway»",d:"First month was fine. Second — disaster. Without optimization, everything breaks."}
+        {t:"«Сливаю бюджет — а заявок нет»",d:"Реклама работает, но клиентов от нее ноль. Деньги просто сгорают."},
+        {t:"«Таргетолог пропал — и кампании упали»",d:"Одну неделю тишина, потом — «нужно больше времени». Цена лида удвоилась."},
+        {t:"«Не понимаю, куда уходят деньги»",d:"Отчетов нет. Что тестируется — неизвестно. Что работает — тоже загадка."},
+        {t:"«Реклама была — продаж не стало»",d:"Первый месяц — норм. Второй — провал. Без оптимизации все ломается."}
       ]
     },
     services:{
-      kicker:"02 — What I do",title:"Services",
+      kicker:"02 — Что я делаю",title:"Услуги",
       items:[
-        {tag:"Launch",title:"Launch from zero",text:"Niche research, strategy, creatives, Pixel + CAPI setup, first campaigns turnkey.",time:"7 days"},
-        {tag:"Scale",title:"Scaling",text:"Take working campaigns to a new level — without ROAS drop or audience fatigue.",time:"21 days"},
-        {tag:"Audit",title:"Ad audit",text:"Honest deep‑dive into your accounts: where money leaks and what brings growth in 14 days.",time:"3 days"},
-        {tag:"Creo",title:"Creatives + copy",text:"Reels scripts, static banners, copy that stops the scroll and leads to a request.",time:"5 days"}
+        {tag:"Запуск",title:"Запуск с нуля",text:"Анализ ниши, стратегия, креативы, настройка Pixel + CAPI, первые кампании под ключ.",time:"7 дней"},
+        {tag:"Audit",title:"Аудит рекламы",text:"Честный разбор ваших кабинетов. Где сливается бюджет и что даст прирост за 14 дней.",time:"3 дня"}
       ]
     },
     roi:{
-      kicker:"03 — Calculator",title:"How much money are you leaving on the table?",
-      sub:"Simple model: enter your numbers — see the difference between «as is» and «with me».",
-      budget:"Monthly ad budget, ₴",cpl:"Current CPL, ₴",
-      conv:"Lead → sale, %",check:"Average order value, ₴",
-      now:"NOW",with:"WITH ME",
-      leadsLabel:"Leads / mo",revLabel:"Revenue / mo",roasLabel:"ROAS",
-      diffLabel:"Extra revenue / month",cta:"I want this",
-      note:"Model based on average CPL drop ‑38% and ROAS uplift +60% on my projects. Reference, not a guarantee."
+      kicker:"03 — Калькулятор",title:"Сколько вы недозарабатываете на рекламе?",
+      sub:"Простая модель: введите свои цифры — увидите разницу между «как сейчас» и «как будет со мной».",
+      budget:"Месячный бюджет на рекламу, ₴",cpl:"Текущая цена лида (CPL), ₴",
+      conv:"Конверсия в продажу, %",check:"Средний чек, ₴",
+      now:"СЕЙЧАС",with:"СО МНОЙ",
+      leadsLabel:"Лидов/мес",revLabel:"Выручка/мес",roasLabel:"ROAS",
+      diffLabel:"Дополнительный доход / мес",cta:"Хочу так же",
+      note:"Расчет базируется на среднем снижении CPL ‑38% и росте ROAS на 60% по моим проектам. Не гарантия — ориентир."
     },
     cases:{
-      kicker:"04 — Work",title:"Cases",sub:"Numbers from recent projects. Names hidden under NDA.",
+      kicker:"04 — Работа",title:"Кейсы",sub:"Цифры из последних проектов. Имена скрыты по NDA.",
       items:[
-        {niche:"Beauty brand",before:"CPL 240₴",after:"CPL 78₴",roas:"ROAS ×5.4",note:"30 days — 3.1× more leads at the same budget."},
-        {niche:"Online school",before:"0 leads",after:"184 / mo",roas:"ROAS ×4.7",note:"Launch from zero. Funnel paid back on day 11."},
-        {niche:"E‑commerce apparel",before:"ROAS ×1.8",after:"ROAS ×6.2",roas:"−42% CPL",note:"Account restructure + new reels creatives."}
+        {niche:"Beauty‑бренд",before:"CPL 240₴",after:"CPL 78₴",roas:"ROAS ×5.4",note:"За 30 дней — в 3.1 раза больше заявок при том же бюджете."},
+        {niche:"Онлайн‑школа",before:"0 заявок",after:"184 / мес",roas:"ROAS ×4.7",note:"Запуск с нуля. Окупаемость воронки — на 11‑й день."}
       ]
     },
     process:{
-      kicker:"05 — How we work",title:"Four steps to results",
+      kicker:"05 — Как мы работаем",title:"Четыре шага к результату",
       steps:[
-        {n:"01",t:"Brief",d:"30‑min call: product, audience, goals, numbers. No fluff."},
-        {n:"02",t:"Strategy",d:"Media plan, funnel, creative concepts, monthly KPIs."},
-        {n:"03",t:"Tests",d:"5–8 creatives × 3–4 audiences. First leads in 48h."},
-        {n:"04",t:"Scale",d:"What works — scale. What doesn't — kill."}
+        {n:"01",t:"Бриф",d:"30‑мин созвон: продукт, аудитория, цели, цифры. Без воды."},
+        {n:"02",t:"Стратегия",d:"Медиаплан, воронка, креативные концепты, KPI на месяц."},
+        {n:"03",t:"Тесты",d:"5–8 креативов × 3–4 аудитории. Первые лиды — за 48 час."},
+        {n:"04",t:"Масштаб",d:"То, что дает результат — масштабирую. То, что не дает — выключаю."}
       ]
     },
     about:{
-      kicker:"06 — About",name:"Cholak Victoria",role:"Performance Marketer",
-      title:"I don't «run ads».\nI build sales systems.",
-      body:"I work with founders tired of burning budget on ads with no return. Transparent reporting, honest numbers and max 5 active projects — so each of them gets my full focus.",
+      kicker:"06 — Обо мне",name:"Чолак Виктория",role:"Performance Marketer",
+      title:"Я не «запускаю рекламу».\nЯ строю систему продаж.",
+      body:"Работаю с предпринимателями, которые устали сливать бюджет на рекламу без результата. Прозрачная отчетность, честные цифры и максимум 5 проектов одновременно — чтобы у каждого был мой полный фокус.",
       stats:[
-        {n:1.5,suffix:"+",label:"years in performance"},
-        {n:30,suffix:"+",label:"campaigns shipped"},
-        {n:12,suffix:"M₴",label:"ad budget managed"},
-        {n:3.4,suffix:"×",label:"average ROAS",decimals:1}
+        {n:1.5,suffix:"+",label:"года в performance"},
+        {n:30,suffix:"+",label:"запущенных проектов"},
+        {n:12,suffix:"M₴",label:"бюджета под управлением"},
+        {n:3.4,suffix:"×",label:"средний ROAS",decimals:1}
       ]
     },
     faq:{
-      kicker:"07 — Questions",title:"Frequently asked",
+      kicker:"07 — Вопросы",title:"Частые вопросы",
       items:[
-        {q:"How much do your services cost?",a:"Base launch — from 18,000₴/mo + ad budget. Exact quote after the brief."},
-        {q:"Minimum ad budget?",a:"Test month — from 12,000₴. Lower budgets give too little data to optimize."},
-        {q:"How fast will I see results?",a:"First leads — within 48–72h after launch. Stable flow — from week 2."},
-        {q:"I'm outside Ukraine. Can we work?",a:"Yes. EU / US / UK markets are my profile. I run ads in English."},
-        {q:"What if it doesn't work?",a:"If we don't hit the agreed KPI in month one — I refund 50% of my fee."}
+        {q:"Сколько стоят услуги?",a:"Базовый запуск — от 18 000₴/мес + рекламный бюджет. Точную стоимость назову после брифа."},
+        {q:"Какой минимальный бюджет на рекламу?",a:"Тестовый месяц — от 12 000₴. Меньшие бюджеты дают слишком мало данных для оптимизации."},
+        {q:"Через сколько будет результат?",a:"Первые заявки — в первые 48–72 час после запуска. Стабильный поток — со 2‑й недели."},
+        {q:"Я не в Украине. Работаем?",a:"Да. Работаю удаленно с проектами из разных стран."},
+        {q:"Что если не зайдет?",a:"Если за первый месяц не выходим на согласованный KPI — возвращаю 50% оплаты за работу."}
       ]
     },
     form:{
-      kicker:"08 — Contact",title:"Leave a request — let's talk about your project",
-      sub:"I reply within 2 hours during business hours. It's free and commits you to nothing.",
-      name:"Name",contact:"Instagram or Telegram",contactPh:"@username",
-      budget:"Monthly budget",
-      budgets:["Up to 15,000₴","15,000–50,000₴","50,000–150,000₴","150,000₴+"],
-      niche:"Your niche",nichePh:"e.g. beauty salon, online school",
-      submit:"Send request",
-      success:"Done. I'll get back to you within 2 hours ✓",
-      error:"Something went wrong. Please check your connection or message me on Telegram.",
-      privacy:"By clicking, you agree to data processing. I don't share it with third parties."
+      kicker:"08 — Заявка",title:"Оставьте заявку — обсудим ваш проект",
+      sub:"Отвечу в течение 2 часов в рабочее время. Это бесплатно и ни к чему не обязывает.",
+      name:"Имя",contact:"Instagram или Telegram",contactPh:"@username",
+      budget:"Бюджет на месяц",
+      budgets:["До 15 000₴","15 000–50 000₴","50 000–150 000₴","150 000₴+"],
+      niche:"Ваша ниша",nichePh:"напр. салон красоты, онлайн‑школа",
+      submit:"Отправить заявку",
+      success:"Готово. Я вам напишу в течение 2 часов ✓",
+      error:"Что-то пошло не так. Проверьте соединение или напишите в Telegram.",
+      privacy:"Нажимая кнопку, вы соглашаетесь на обработку данных. Я не передаю их третьим лицам."
     },
-    footer:{tagline:"Performance marketer · Odesa / remote",copy:"© 2026. All rights reserved.",tg:"Telegram",ig:"Instagram",mail:"Email"}
+    footer:{tagline:"Performance marketer · Odesa / remote",copy:"© 2026. Все права защищены.",tg:"Telegram",ig:"Instagram",mail:"Email"}
   }
 };
  
@@ -207,7 +201,7 @@ function setLang(l) {
   lang = l;
   document.documentElement.lang = l;
   document.getElementById('btn-uk').classList.toggle('on', l==='uk');
-  document.getElementById('btn-en').classList.toggle('on', l==='en');
+  document.getElementById('btn-ru').classList.toggle('on', l==='ru');
   render();
   calcRoi();
 }
@@ -477,7 +471,7 @@ async function submitForm(){
   const btn     = document.getElementById('form-submit');
 
   if(!name||!contact||!niche){
-    msg.textContent = lang==='uk'?"Будь ласка, заповніть усі поля":"Please fill in all fields";
+    msg.textContent = lang==='uk'?"Будь ласка, заповніть усі поля":"Пожалуйста, заполните все поля";
     msg.className='form-msg err';
     msg.style.display='';
     return;
