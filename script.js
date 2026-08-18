@@ -1,4 +1,3 @@
-/* ============ Translations ============ */
 const T = {
   uk:{
     nav:{problems:"Проблеми",services:"Послуги",cases:"Кейси",about:"Про мене",cta:"Залишити заявку"},
@@ -11,7 +10,6 @@ const T = {
     },
     live:{
       kicker:"LIVE",title:"Рекламні кампанії крутяться прямо зараз",
-      sub:"Поки ви читаєте — мої кампанії приносять заявки клієнтам у 8 нішах одночасно.",
       stats:[
         {n:248,label:"лідів цього місяця"},
         {n:3,label:"активних проєктів"},
@@ -20,12 +18,12 @@ const T = {
       ],pulse:"ONLINE"
     },
     problems:{
-      kicker:"01 — Знайомо?",title:"Типові болі, які я чую щодня",
+      kicker:"01 — Знайомо ?",title:"Типові болі, які я чую щодня",
       items:[
-        {t:"«Зливаю бюджет — а заявок немає»",d:"Реклама працює, але клієнтів від неї нуль. Гроші просто згоряють."},
-        {t:"«Таргетолог зник — і кампанії впали»",d:"Один тиждень тиша, потім — «потрібно більше часу». Ціна ліда подвоїлась."},
-        {t:"«Не розумію, куди йдуть гроші»",d:"Звітів немає. Що тестується — невідомо. Що працює — теж загадка."},
-        {t:"«Реклама була — продажів не стало»",d:"Перший місяць — норм. Другий — провал. Без оптимізації все ламається."}
+        {t:"«Зливаю бюджет, а заявок немає»",d:"Реклама працює, але клієнтів від неї нуль. Гроші просто згоряють."},
+        {t:"«Таргетолог зник і кампанії впали»",d:"Один тиждень тиша, потім «потрібно більше часу». Ціна ліда подвоїлась."},
+        {t:"«Не розумію, куди йдуть гроші»",d:"Звітів немає. Що тестується - невідомо. Що працює - теж загадка."},
+        {t:"«Реклама була - продажів не стало»",d:"Перший місяць - норм. Другий - провал. Без оптимізації все ламається."}
       ]
     },
     services:{
@@ -36,20 +34,20 @@ const T = {
       ]
     },
     roi:{
-      kicker:"03 — Калькулятор",title:"Скільки ви недозаробляєте на рекламі?",
-      sub:"Проста модель: введіть свої цифри — побачите різницю між «як зараз» і «як буде зі мною».",
+      kicker:"03 — Калькулятор",title:"Скільки ви недозаробляєте на рекламі ?",
+      sub:"Проста модель: введіть свої цифри, побачите різницю між «як зараз» і «як буде зі мною».",
       budget:"Місячний бюджет на рекламу, ₴",cpl:"Поточна ціна ліда (CPL), ₴",
       conv:"Конверсія в продаж, %",check:"Середній чек, ₴",
       now:"ЗАРАЗ",with:"ЗІ МНОЮ",
       leadsLabel:"Лідів/міс",revLabel:"Виручка/міс",roasLabel:"ROAS",
       diffLabel:"Додатковий дохід / міс",cta:"Хочу так само",
-      note:"Розрахунок базується на середньому зниженні CPL ‑38% і зростанні ROAS на 60% по моїх проєктах. Не гарантія — орієнтир."
+      note:"Розрахунок базується на середньому зниженні CPL ‑38% і зростанні ROAS на 60% по моїх проєктах. Не гарантія - орієнтир."
     },
     cases:{
       kicker:"04 — Робота",title:"Кейси",sub:"Цифри з останніх проєктів. Імена прихованi за NDA.",
       items:[
-        {niche:"Beauty‑бренд",before:"CPL 240₴",after:"CPL 78₴",roas:"ROAS ×5.4",note:"За 30 днів — у 3.1 раза більше заявок при тому ж бюджеті."},
-        {niche:"Онлайн‑школа",before:"0 заявок",after:"184 / міс",roas:"ROAS ×4.7",note:"Запуск з нуля. Окупність воронки — на 11‑й день."}
+        {niche:"Beauty‑бренд",before:"CPL 240₴",after:"CPL 78₴",roas:"ROAS ×5.4",note:"За 30 днів - у 3.1 раза більше заявок при тому ж бюджеті."},
+        {niche:"Онлайн‑школа",before:"0 заявок",after:"184 / міс",roas:"ROAS ×4.7",note:"Запуск з нуля. Окупність воронки на 11‑й день."}
       ]
     },
     process:{
@@ -57,33 +55,32 @@ const T = {
       steps:[
         {n:"01",t:"Бриф",d:"30‑хв дзвінок: продукт, аудиторія, цілі, цифри. Без води."},
         {n:"02",t:"Стратегія",d:"Медіаплан, воронка, креативні концепти, KPI на місяць."},
-        {n:"03",t:"Тести",d:"5–8 креативів × 3–4 аудиторії. Перші ліди — за 48 год."},
-        {n:"04",t:"Масштаб",d:"Те, що дає результат — масштабую. Те, що не дає — вимикаю."}
+        {n:"03",t:"Тести",d:"5–8 креативів × 3–4 аудиторії. Перші ліди за 48 год."},
+        {n:"04",t:"Масштаб",d:"Те, що дає результат - масштабую. Те, що не дає - вимикаю."}
       ]
     },
     about:{
       kicker:"06 — Про мене",name:"Чолак Вікторія",role:"Performance Marketer",
       title:"Я не «запускаю рекламу».\nЯ будую систему продажів.",
-      body:"Працюю з підприємцями, які втомились зливати бюджет на рекламу без результату. Прозора звітність, чесні цифри і максимум 5 проєктів одночасно — щоб у кожного був мій повний фокус.",
+      body:"Працюю з підприємцями, які втомились зливати бюджет на рекламу без результату. Прозора звітність, чесні цифри і максимум 5 проєктів одночасно, щоб у кожного був мій повний фокус.",
       stats:[
         {n:1.5,suffix:"+",label:"років у performance"},
         {n:30,suffix:"+",label:"запущених проєктів"},
-        {n:12,suffix:"M₴",label:"бюджету під управлінням"},
         {n:3.4,suffix:"×",label:"середній ROAS",decimals:1}
       ]
     },
     faq:{
       kicker:"07 — Питання",title:"Часті запитання",
       items:[
-        {q:"Скільки коштують послуги?",a:"Базовий запуск — від 18 000₴/міс + рекламний бюджет. Точну вартість назву після брифу."},
-        {q:"Який мінімальний бюджет на рекламу?",a:"Тестовий місяць — від 12 000₴. Менші бюджети дають замало даних для оптимізації."},
-        {q:"Через скільки буде результат?",a:"Перші заявки — у перші 48–72 год після запуску. Стабільний потік — з 2‑го тижня."},
-        {q:"Я не в Україні. Працюємо?",a:"Так. Працюю дистанційно з проєктами з різних країн."},
-        {q:"Що якщо не зайде?",a:"Якщо за перший місяць не виходимо на узгоджений KPI — повертаю 50% оплати за роботу."}
+        {q:"Скільки коштують послуги ?",a:"Базовий запуск від 18 000₴/міс + рекламний бюджет. Точну вартість назву після брифу."},
+        {q:"Який мінімальний бюджет на рекламу ?",a:"Тестовий місяць від 12 000₴. Менші бюджети дають замало даних для оптимізації."},
+        {q:"Через скільки буде результат ?",a:"Перші заявки у перші 48–72 год після запуску. Стабільний потік з 2‑го тижня."},
+        {q:"Я не в Україні. Працюємо ?",a:"Так. Працюю дистанційно з проєктами з різних країн."},
+        {q:"Що якщо не зайде ?",a:"Якщо за перший місяць не виходимо на узгоджений KPI повертаю 50% оплати за роботу."}
       ]
     },
     form:{
-      kicker:"08 — Заявка",title:"Залиште заявку — обговоримо ваш проєкт",
+      kicker:"08 — Заявка",title:"Залиште заявку, обговоримо ваш проєкт",
       sub:"Відповім протягом 2 годин у робочий час. Це безкоштовно і ні до чого не зобов'язує.",
       name:"Ім'я",contact:"Instagram або Telegram",contactPh:"@username",
       budget:"Бюджет на місяць",
@@ -107,7 +104,6 @@ const T = {
     },
     live:{
       kicker:"LIVE",title:"Рекламные кампании крутятся прямо сейчас",
-      sub:"Пока вы читаете — мои кампании приносят заявки клиентам в 8 нишах одновременно.",
       stats:[
         {n:248,label:"лидов в этом месяце"},
         {n:3,label:"активных проекта"},
@@ -116,12 +112,12 @@ const T = {
       ],pulse:"ONLINE"
     },
     problems:{
-      kicker:"01 — Знакомо?",title:"Типичные боли, которые я слышу каждый день",
+      kicker:"01 — Знакомо ?",title:"Типичные боли, которые я слышу каждый день",
       items:[
-        {t:"«Сливаю бюджет — а заявок нет»",d:"Реклама работает, но клиентов от нее ноль. Деньги просто сгорают."},
-        {t:"«Таргетолог пропал — и кампании упали»",d:"Одну неделю тишина, потом — «нужно больше времени». Цена лида удвоилась."},
-        {t:"«Не понимаю, куда уходят деньги»",d:"Отчетов нет. Что тестируется — неизвестно. Что работает — тоже загадка."},
-        {t:"«Реклама была — продаж не стало»",d:"Первый месяц — норм. Второй — провал. Без оптимизации все ломается."}
+        {t:"«Сливаю бюджет, а заявок нет»",d:"Реклама работает, но клиентов от нее ноль. Деньги просто сгорают."},
+        {t:"«Таргетолог пропал и кампании упали»",d:"Одну неделю тишина, потом «нужно больше времени». Цена лида удвоилась."},
+        {t:"«Не понимаю, куда уходят деньги»",d:"Отчетов нет. Что тестируется - неизвестно. Что работает - тоже загадка."},
+        {t:"«Реклама была - продаж не стало»",d:"Первый месяц - норм. Второй - провал. Без оптимизации все ломается."}
       ]
     },
     services:{
@@ -132,20 +128,20 @@ const T = {
       ]
     },
     roi:{
-      kicker:"03 — Калькулятор",title:"Сколько вы недозарабатываете на рекламе?",
-      sub:"Простая модель: введите свои цифры — увидите разницу между «как сейчас» и «как будет со мной».",
+      kicker:"03 — Калькулятор",title:"Сколько вы недозарабатываете на рекламе ?",
+      sub:"Простая модель: введите свои цифры, увидите разницу между «как сейчас» и «как будет со мной».",
       budget:"Месячный бюджет на рекламу, ₴",cpl:"Текущая цена лида (CPL), ₴",
       conv:"Конверсия в продажу, %",check:"Средний чек, ₴",
       now:"СЕЙЧАС",with:"СО МНОЙ",
       leadsLabel:"Лидов/мес",revLabel:"Выручка/мес",roasLabel:"ROAS",
       diffLabel:"Дополнительный доход / мес",cta:"Хочу так же",
-      note:"Расчет базируется на среднем снижении CPL ‑38% и росте ROAS на 60% по моим проектам. Не гарантия — ориентир."
+      note:"Расчет базируется на среднем снижении CPL ‑38% и росте ROAS на 60% по моим проектам. Не гарантия - ориентир."
     },
     cases:{
       kicker:"04 — Работа",title:"Кейсы",sub:"Цифры из последних проектов. Имена скрыты по NDA.",
       items:[
-        {niche:"Beauty‑бренд",before:"CPL 240₴",after:"CPL 78₴",roas:"ROAS ×5.4",note:"За 30 дней — в 3.1 раза больше заявок при том же бюджете."},
-        {niche:"Онлайн‑школа",before:"0 заявок",after:"184 / мес",roas:"ROAS ×4.7",note:"Запуск с нуля. Окупаемость воронки — на 11‑й день."}
+        {niche:"Beauty‑бренд",before:"CPL 240₴",after:"CPL 78₴",roas:"ROAS ×5.4",note:"За 30 дней - в 3.1 раза больше заявок при том же бюджете."},
+        {niche:"Онлайн‑школа",before:"0 заявок",after:"184 / мес",roas:"ROAS ×4.7",note:"Запуск с нуля. Окупаемость воронки на 11‑й день."}
       ]
     },
     process:{
@@ -153,33 +149,32 @@ const T = {
       steps:[
         {n:"01",t:"Бриф",d:"30‑мин созвон: продукт, аудитория, цели, цифры. Без воды."},
         {n:"02",t:"Стратегия",d:"Медиаплан, воронка, креативные концепты, KPI на месяц."},
-        {n:"03",t:"Тесты",d:"5–8 креативов × 3–4 аудитории. Первые лиды — за 48 час."},
-        {n:"04",t:"Масштаб",d:"То, что дает результат — масштабирую. То, что не дает — выключаю."}
+        {n:"03",t:"Тесты",d:"5–8 креативов × 3–4 аудитории. Первые лиды за 48 час."},
+        {n:"04",t:"Масштаб",d:"То, что дает результат - масштабирую. То, что не дает - выключаю."}
       ]
     },
     about:{
       kicker:"06 — Обо мне",name:"Чолак Виктория",role:"Performance Marketer",
       title:"Я не «запускаю рекламу».\nЯ строю систему продаж.",
-      body:"Работаю с предпринимателями, которые устали сливать бюджет на рекламу без результата. Прозрачная отчетность, честные цифры и максимум 5 проектов одновременно — чтобы у каждого был мой полный фокус.",
+      body:"Работаю с предпринимателями, которые устали сливать бюджет на рекламу без результата. Прозрачная отчетность, честные цифры и максимум 5 проектов одновременно, чтобы у каждого был мой полный фокус.",
       stats:[
         {n:1.5,suffix:"+",label:"года в performance"},
         {n:30,suffix:"+",label:"запущенных проектов"},
-        {n:12,suffix:"M₴",label:"бюджета под управлением"},
         {n:3.4,suffix:"×",label:"средний ROAS",decimals:1}
       ]
     },
     faq:{
       kicker:"07 — Вопросы",title:"Частые вопросы",
       items:[
-        {q:"Сколько стоят услуги?",a:"Базовый запуск — от 18 000₴/мес + рекламный бюджет. Точную стоимость назову после брифа."},
-        {q:"Какой минимальный бюджет на рекламу?",a:"Тестовый месяц — от 12 000₴. Меньшие бюджеты дают слишком мало данных для оптимизации."},
-        {q:"Через сколько будет результат?",a:"Первые заявки — в первые 48–72 час после запуска. Стабильный поток — со 2‑й недели."},
-        {q:"Я не в Украине. Работаем?",a:"Да. Работаю удаленно с проектами из разных стран."},
-        {q:"Что если не зайдет?",a:"Если за первый месяц не выходим на согласованный KPI — возвращаю 50% оплаты за работу."}
+        {q:"Сколько стоят услуги ?",a:"Базовый запуск от 18 000₴/мес + рекламный бюджет. Точную стоимость назову после брифа."},
+        {q:"Какой минимальный бюджет на рекламу ?",a:"Тестовый месяц от 12 000₴. Меньшие бюджеты дают слишком мало данных для оптимизации."},
+        {q:"Через сколько будет результат ?",a:"Первые заявки в первые 48–72 час после запуска. Стабильный поток со 2‑й недели."},
+        {q:"Я не в Украине. Работаем ?",a:"Да. Работаю удаленно с проектами из разных стран."},
+        {q:"Что если не зайдет ?",a:"Если за первый месяц не выходим на согласованный KPI возвращаю 50% оплаты за работу."}
       ]
     },
     form:{
-      kicker:"08 — Заявка",title:"Оставьте заявку — обсудим ваш проект",
+      kicker:"08 — Заявка",title:"Оставьте заявку, обсудим ваш проект",
       sub:"Отвечу в течение 2 часов в рабочее время. Это бесплатно и ни к чему не обязывает.",
       name:"Имя",contact:"Instagram или Telegram",contactPh:"@username",
       budget:"Бюджет на месяц",
@@ -194,7 +189,6 @@ const T = {
   }
 };
  
-/* ============ State ============ */
 let lang = 'uk';
  
 function setLang(l) {
@@ -206,13 +200,11 @@ function setLang(l) {
   calcRoi();
 }
  
-/* ============ Helpers ============ */
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function fmt(n){ return Math.round(n).toLocaleString('uk-UA'); }
 function set(id,html){ const el=document.getElementById(id); if(el) el.innerHTML=html; }
 function setText(id,text){ const el=document.getElementById(id); if(el) el.textContent=text; }
  
-/* ============ Animated Counter ============ */
 const counterObserver = new IntersectionObserver((entries)=>{
   entries.forEach(e=>{
     if(!e.isIntersecting) return;
@@ -238,7 +230,6 @@ function makeCounter(to, dec=0){
   return `<span class="counter" data-to="${to}" data-dec="${dec}">0</span>`;
 }
  
-/* ============ Scroll Reveal ============ */
 const revealObserver = new IntersectionObserver((entries)=>{
   entries.forEach(e=>{
     if(e.isIntersecting){
@@ -249,21 +240,17 @@ const revealObserver = new IntersectionObserver((entries)=>{
   });
 },{threshold:0.06, rootMargin:'0px 0px -8% 0px'});
  
-/* ============ Render ============ */
 function render(){
   const t = T[lang];
  
-  /* Документ Title (вкладка браузера) */
   document.title = `${t.about.name} · Performance Marketer`;
 
-  /* Nav */
   setText('nav-problems', t.nav.problems);
   setText('nav-services', t.nav.services);
   setText('nav-cases', t.nav.cases);
   setText('nav-about', t.nav.about);
   setText('nav-cta', t.nav.cta);
  
-  /* Hero */
   setText('hero-eyebrow', t.hero.eyebrow);
   setText('hero-h1', t.hero.h1);
   setText('hero-sub', t.hero.sub);
@@ -273,13 +260,11 @@ function render(){
   const ctaSecondary = document.getElementById('hero-cta-secondary');
   if(ctaSecondary){ ctaSecondary.childNodes[0].textContent = t.hero.ctaSecondary+' '; }
  
-  /* Hero Name */
   setText('hero-photo-name', t.about.name);
   set('hero-tags',
     [t.hero.tag1, t.hero.tag2].map(tg=>`<span class="tag">${esc(tg)}</span>`).join('')
   );
  
-  /* Live */
   setText('live-kicker', t.live.kicker);
   setText('live-pulse', t.live.pulse);
   setText('live-title', t.live.title);
@@ -291,7 +276,6 @@ function render(){
     </div>
   `).join(''));
  
-  /* Problems */
   setText('problems-kicker', t.problems.kicker);
   setText('problems-title', t.problems.title);
   const probIcons=['✕','⏱','?','↓'];
@@ -303,7 +287,6 @@ function render(){
     </div>
   `).join(''));
  
-  /* Services */
   setText('services-kicker', t.services.kicker);
   setText('services-title', t.services.title);
   set('services-grid', t.services.items.map((s,i)=>`
@@ -315,7 +298,6 @@ function render(){
     </div>
   `).join(''));
  
-  /* ROI labels */
   setText('roi-kicker', t.roi.kicker);
   setText('roi-title', t.roi.title);
   setText('roi-sub', t.roi.sub);
@@ -336,7 +318,6 @@ function render(){
   if(roiCta){ roiCta.childNodes[0].textContent = t.roi.cta+' '; }
   setText('roi-note', t.roi.note);
  
-  /* Cases */
   setText('cases-kicker', t.cases.kicker);
   setText('cases-title', t.cases.title);
   setText('cases-sub', t.cases.sub);
@@ -353,7 +334,6 @@ function render(){
     </div>
   `).join(''));
  
-  /* Process */
   setText('process-kicker', t.process.kicker);
   setText('process-title', t.process.title);
   set('process-grid', t.process.steps.map((s,i)=>`
@@ -364,7 +344,6 @@ function render(){
     </div>
   `).join(''));
  
-  /* About */
   setText('about-kicker', t.about.kicker);
   setText('about-name', t.about.name);
   setText('about-role', t.about.role);
@@ -377,7 +356,6 @@ function render(){
     </div>
   `).join(''));
  
-  /* FAQ */
   setText('faq-kicker', t.faq.kicker);
   setText('faq-title', t.faq.title);
   set('faq-list', t.faq.items.map((it,i)=>`
@@ -387,7 +365,6 @@ function render(){
     </div>
   `).join(''));
  
-  /* Form */
   setText('form-kicker', t.form.kicker);
   setText('form-title', t.form.title);
   setText('form-sub', t.form.sub);
@@ -400,27 +377,22 @@ function render(){
   document.getElementById('form-niche').placeholder = t.form.nichePh;
   setText('form-submit-text', t.form.submit);
   setText('form-privacy', t.form.privacy);
-  // rebuild budget options
   const sel = document.getElementById('form-budget');
   sel.innerHTML = t.form.budgets.map(b=>`<option value="${esc(b)}">${esc(b)}</option>`).join('');
  
-  /* Footer */
   setText('footer-tagline', t.footer.tagline);
   setText('footer-copy', t.footer.copy);
   setText('footer-tg', t.footer.tg);
   setText('footer-ig', t.footer.ig);
   setText('footer-mail', t.footer.mail);
  
-  /* Re-observe new .reveal nodes */
   document.querySelectorAll('.reveal:not(.in)').forEach(el=>{
     revealObserver.observe(el);
   });
 
-  /* Re-observe counters */
   document.querySelectorAll('.counter').forEach(el=>counterObserver.observe(el));
 }
  
-/* ============ FAQ Toggle ============ */
 let openFaq = -1;
 function toggleFaq(i){
   const items = document.querySelectorAll('.faq-item');
@@ -430,7 +402,6 @@ function toggleFaq(i){
   openFaq = i;
 }
  
-/* ============ ROI Calculator ============ */
 function calcRoi(){
   const t = T[lang];
   const budget = +document.getElementById('roi-budget').value||0;
@@ -460,7 +431,6 @@ function calcRoi(){
   setText('roi-diff-value','+ '+fmt(diff)+' ₴');
 }
  
-/* ============ Form Submit ============ */
 async function submitForm(){
   const t = T[lang];
   const name    = document.getElementById('form-name').value.trim();
@@ -508,6 +478,5 @@ async function submitForm(){
   }
 }
  
-/* ============ Init ============ */
 render();
 calcRoi();
